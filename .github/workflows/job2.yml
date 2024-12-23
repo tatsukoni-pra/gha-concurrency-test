@@ -1,10 +1,10 @@
-name: Test Job
+name: Test Job 2
 
 on:
   push:
 
 concurrency:
-  group: test_job
+  group: test_job_2
   cancel-in-progress: false
 
 jobs:
