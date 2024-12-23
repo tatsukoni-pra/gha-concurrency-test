@@ -1,7 +1,7 @@
 name: Test Job 2
 
 on:
-  push:
+  workflow_dispatch:
 
 concurrency:
   group: test_job_2
