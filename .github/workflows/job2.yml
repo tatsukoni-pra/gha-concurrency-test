@@ -3,9 +3,7 @@ name: Test-Job-2
 on:
   workflow_dispatch:
 
-concurrency:
-  group: test_job_2
-  cancel-in-progress: false
+concurrency: test_job_2
 
 jobs:
   test-job-1:
